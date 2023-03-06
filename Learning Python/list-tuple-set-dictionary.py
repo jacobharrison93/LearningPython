@@ -1,4 +1,9 @@
-#If and elif and else statements
-city = ['Montana']
+# [ ] are list. Duplicate Values and are ordered
+#( ) are Tuples. Duplicate values, immutable
+# { } are sets. No Duplicated, mutable
+# {} are dictonaries. No duplicates or duplicate keys. {1:"a",2:"b"}
+# 
 
-print(city[0])
+city = ['Austin','Dallas','Atlanta']
+
+print(city[-1:-2])
