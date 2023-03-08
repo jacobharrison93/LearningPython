@@ -1,8 +1,3 @@
-from my_module import find_index, test
+import os
 
-courses = ['history', 'math', 'pysics', 'compsci']
-
-index = fi(courses, 'math')
-
-print(index)
-print(test)
+print(os.__file__)
