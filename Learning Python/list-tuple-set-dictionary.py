@@ -1,18 +1,8 @@
-month_days = [0,31,28,31,30,31,30,31,31,30,31]
+from my_module import find_index, test
 
-def is_leap(year):
-    """return leap years"""
-    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+courses = ['history', 'math', 'pysics', 'compsci']
 
-def days_in_month(year,month):
+index = fi(courses, 'math')
 
-    if not 1 <= month <= 12:
-        return 'Invalid Month'
-    
-    if month == 2 and is_leap(year):
-        return 29
-    
-    return month_days[month]
-
-print(is_leap(2000))
-print(days_in_month(2000,2))
+print(index)
+print(test)
